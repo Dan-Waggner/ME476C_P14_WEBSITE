@@ -28,9 +28,7 @@ header {
 .logo {
 	color: #fff;
 	font-weight: bold;
-	<!--
 	text-align: undefined;
-	-->
 	width: 10%;
 	float: left;
 	margin-top: 15px;
