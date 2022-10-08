@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .container {
-	background-color: #FFFFFF;
+	background-color: none;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -34,7 +34,7 @@
 	width: 25%;
 	float: left;
 	font-family: "Source Sans Pro";
-	color: #A5A5A5;
+	color: #FFFFFF;
 	line-height: 24px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -50,7 +50,7 @@
 	width: 33%;
 	float: left;
 	font-family: "Source Sans Pro";
-	color: #A5A5A5;
+	color: #FFFFFF;
 	line-height: 24px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -87,30 +87,29 @@
 
 .container .columns h5 {
 	text-align: center;
-	color: #717171;
+	color: #FFFFFF;
 	font-size: 18px;
 	margin-top: 0px;
 }
 
 .container .columns2 h5 {
 	text-align: center;
-	color: #717171;
+	color: #FFFFFF;
 	font-size: 18px;
 	margin-top: 0px;
 }
 
 .primary_header {
 	width: 100%;
-	background-color: #52bad5;
+	background-color: none;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	clear: left;
-	border-bottom: 2px solid #2C9AB7;
 }
 
 .row .primary_header {
 	width: 100%;
-	background-color: #B3B3B3;
+	background-color: none;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	clear: left;
@@ -122,7 +121,7 @@
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #B3B3B3;
+	background-color: none;
 	clear: left;
 }
 .container .secondary_header ul {
@@ -137,29 +136,46 @@
 	width: 100%;
 }
 .secondary_header ul li {
+	font-weight: bold;
+	font-style: normal;
 	list-style: none;
 	float: left;
 	margin-right: auto;
 	margin-top: 0px;
 	font-family: "Source Sans Pro";
-	font-weight: normal;
 	color: #FFFFFF;
 	letter-spacing: 1px;
 	margin-left: auto;
 	text-align: center;
 	width: 20%;
 	transition: all 0.3s linear;
+	text-decoration: none;
+
 }
-.secondary_header ul li:hover {
-	color: #717070;
+a:visited {
+
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.secondary_header ul li:hover a{
+	color: #2C9AB7;
 	cursor: pointer;
 }
+
+ul li a{
+	text-decoration: none;
+	font-family: source-sans-pro;
+	font-size: 18px;
+	letter-spacing: 2px;
+
+}
 .left_article {
-	background-color: #FFFFFF;
+	background-color: none;
 	width: 60%;
 	float: left;
 	font-family: "Source Sans Pro";
-	color: #343434;
+	color: #FFFFFF;
 	padding-bottom: 15px;
 }
 .noDisplay {
@@ -169,7 +185,7 @@
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-top: 5%;
-	color: #717070;
+	color: #FFFFFF;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -180,12 +196,12 @@
 	line-height: 24px;
 	margin-top: 30px;
 	margin-bottom: 15px;
-	color: #B3B3B3;
+	color: #FFFFFF;
 }
 .right_article {
 	width: 40%;
 	float: left;
-	background-color: #F6F6F6;
+	background-color: none;
 }
 .container .right_article ul {
 	margin-top: 0px;
@@ -201,7 +217,7 @@
 	font-family: "Source Sans Pro";
 	list-style: none;
 	text-align: center;
-	background-color: #B3B3B3;
+	background-color: none;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -215,8 +231,8 @@
 	transition: all 0.3s linear;
 	border-left: 5px solid #717070;
 }
-.right_article ul li:hover {
-	background-color: #717070;
+.right_article ul li:hover a{
+	background-color: #2C9AB7;
 	cursor: pointer;
 }
 .footer {
@@ -263,7 +279,7 @@
 }
 .copyright {
 	text-align: center;
-	background-color: #717070;
+	background-color: none;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -276,6 +292,11 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	background-color: none;
+	background-image: url("images/Background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 @media (max-width: 320px) {
@@ -541,7 +562,7 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	width: 100%;
-	background-color: #414141;
+	background-color: none;
 	clear: both;
 	overflow: auto;
 }
