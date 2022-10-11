@@ -73,28 +73,28 @@
 
 .container .columns h4 {
 	text-align: center;
-	color: #01B2D1;
+	color: #ffae4b;
 	font-size: 25px;
 	margin-bottom: 5px;
 }
 
 .container .columns2 h4 {
 	text-align: center;
-	color: #01B2D1;
+	color: #ffae4b;
 	font-size: 25px;
 	margin-bottom: 5px;
 }
 
 .container .columns h5 {
 	text-align: center;
-	color: #FFFFFF;
+	color: #fff6dc;
 	font-size: 18px;
 	margin-top: 0px;
 }
 
 .container .columns2 h5 {
 	text-align: center;
-	color: #FFFFFF;
+	color: #fff6dc;
 	font-size: 18px;
 	margin-top: 0px;
 }
@@ -178,6 +178,7 @@ ul li a{
 	font-family: "Source Sans Pro";
 	color: #FFFFFF;
 	padding-bottom: 15px;
+
 }
 .noDisplay {
 	display: none;
@@ -189,15 +190,17 @@ ul li a{
 	color: #FFFFFF;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-size: 30px;
 }
 .container .left_article p {
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: justify;
-	line-height: 24px;
+	line-height: 30px;
 	margin-top: 30px;
 	margin-bottom: 15px;
 	color: #FFFFFF;
+	font-size: 25px;
 }
 .right_article {
 	width: 40%;
@@ -246,6 +249,7 @@ ul li a{
 	text-align: center;
 	color: #FFFFFF;
 	letter-spacing: 2px;
+	font-size: 50px;
 }
 .placeholder {
 	/* [disabled]max-width: 400px;
