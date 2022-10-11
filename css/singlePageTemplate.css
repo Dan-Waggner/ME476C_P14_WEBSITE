@@ -42,9 +42,9 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: auto;
 	text-align: right;
-	margin-right: 25px;
+	margin-right: 0px;
 }
 header nav ul {
 	list-style: none;
@@ -65,7 +65,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #ffae4b;
 }
 .hero_header {
 	color: #FFFFFF;
