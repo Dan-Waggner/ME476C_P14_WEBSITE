@@ -96,6 +96,18 @@ ul li:hover a {
 	letter-spacing: 1px;
 	font-size: 32px;
 }
+
+.sechead {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 32px;
+	margin-bottom: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 32px;
+}
+
 /* About Section */
 .text_column {
 	width: 29%;
@@ -103,8 +115,8 @@ ul li:hover a {
 	font-weight: lighter;
 	line-height: 25px;
 	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 2.5%;
+	padding-right: 1.5%;
 	color: #FFFFFF;
 }
 .about {
@@ -190,31 +202,30 @@ footer {
 .footer_column {
 	width: 50%;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 0px;
 	float: left;
 }
 footer .footer_column h3 {
 	color: #ffffff;
 	text-align: center;
+	font-size: xx-large;
 }
 footer .footer_column p {
 	color: #FFFFFF;
 	background-color: none;
 }
 .cards {
-	width: 100%;
+	width: auto;
 	height: auto;
 	max-width: 400px;
 	max-height: 200px;
 }
 footer .footer_column p {
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: justify;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
 	line-height: 25px;
 	font-weight: lighter;
-	margin-left: 20px;
-	margin-right: 20px;
 }
 .button {
 	width: 200px;
@@ -262,6 +273,7 @@ footer .footer_column p {
 }
 footer {
 	display: inline-block;
+	width: 100%;
 }
 .hidden {
 	display: none;
@@ -345,6 +357,13 @@ nav ul li {
 	margin-top: 20px;
 	line-height: 22px;
 }
+
+
+.sechead {
+	margin-top: 20px;
+	line-height: 22px;
+}
+
 .hero_header {
 	padding-left: 10px;
 	padding-right: 10px;
