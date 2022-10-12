@@ -1,17 +1,13 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
-	background-color: none;
+	font-family: source-sans-pro, serif;
 	background-image: url("images/Background.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	font-style: normal;
 	font-weight: 200;
 }
@@ -21,19 +17,16 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 1000px;
-	background-color: none;
 }
 /* Navigation */
 header {
 	width: 100%;
 	height: 5%;
-	background-color: none;
 
 }
 .logo {
 	color: #fff;
 	font-weight: bold;
-	text-align: undefined;
 	width: 10%;
 	float: left;
 	margin-top: 15px;
@@ -44,7 +37,7 @@ nav {
 	float: right;
 	width: auto;
 	text-align: right;
-	margin-right: 0px;
+	margin-right: 0;
 }
 header nav ul {
 	list-style: none;
@@ -70,18 +63,14 @@ ul li:hover a {
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	letter-spacing: 4px;
 	font-size: 44px;
 }
 /* Hero Section */
 .hero {
-	background-color: none;
 	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-bottom: 25px;
 }
 .light {
 	font-weight: bold;
@@ -102,7 +91,7 @@ ul li:hover a {
 	color: #FFFFFF;
 	margin-top: 32px;
 	margin-bottom: 4px;
-	font-weight: lighter;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 32px;
@@ -118,14 +107,26 @@ ul li:hover a {
 	padding-left: 2.5%;
 	padding-right: 1.5%;
 	color: #FFFFFF;
+	font-size: 17px;
 }
-.about {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 35px;
+
+.head_column {
+
+	width: 33%;
+	text-align: center;
+	color: #ffffff;
 	display: inline-block;
-	background-color: none;
-	margin-top: 0px;
+	font-size: 30px;
+
+}
+
+.about {
+
+	padding-top: 5px;
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 30px;
+	width: 100%;
 }
 /* Stats Gallery */
 .stats {
@@ -136,13 +137,12 @@ ul li:hover a {
 	clear: both;
 	display: inline-block;
 	width: 100%;
-	background-color: none;
 	/* [disabled]min-width: 400px;
 */
 	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .thumbnail {
 	width: 25%;
@@ -151,17 +151,11 @@ ul li:hover a {
 	margin-top: 35px;
 }
 .gallery .thumbnail h4 {
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
+	margin: 5px;
 	color: #52BAD5;
 }
 .gallery .thumbnail p {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	color: #FFFFFF;
 }
 /* Parallax Section */
@@ -179,7 +173,7 @@ ul li:hover a {
 	padding-right: 100px;
 	padding-top: 110px;
 	letter-spacing: 2px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 .parallax_description {
 	color: #FFFFFF;
@@ -189,20 +183,16 @@ ul li:hover a {
 	float: right;
 	font-weight: lighter;
 	line-height: 23px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 }
 /* More info */
 footer {
-	background-color: none;
 	padding-bottom: 35px;
 }
 .footer_column {
 	width: 50%;
 	text-align: center;
-	padding-top: 0px;
+	padding-top: 0;
 	float: left;
 }
 footer .footer_column h3 {
@@ -212,7 +202,6 @@ footer .footer_column h3 {
 }
 footer .footer_column p {
 	color: #FFFFFF;
-	background-color: none;
 }
 .cards {
 	width: auto;
@@ -229,17 +218,11 @@ footer .footer_column p {
 }
 .button {
 	width: 200px;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
+	margin: 40px auto auto;
+	padding: 20px 10px;
 	text-align: center;
 	vertical-align: middle;
-	border-radius: 0px;
+	border-radius: 0;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -264,10 +247,9 @@ footer .footer_column p {
 	border-top-width: 2px;
 }
 .footer_banner {
-	background-color: none;
 	padding-top: 60px;
 	padding-bottom: 60PX;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	background-image: url(../images/pattern.png);
 	background-repeat: repeat;
 }
@@ -284,16 +266,10 @@ footer {
 .logo {
 	width: 100%;
 	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 13px 0 0;
 }
 .container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	width: 100%;
 	float: none;
 	display: none;
@@ -301,51 +277,33 @@ footer {
 header nav ul {
 }
 nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	width: 100%;
 	text-align: center;
 }
 .text_column {
 	width: 100%;
 	text-align: justify;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	padding: 0;
 }
 .thumbnail {
 	width: 100%;
 }
 .footer_column {
 	width: 100%;
-	margin-top: 0px;
+	margin-top: 0;
 }
 .parallax {
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	margin: 0;
+	padding: 40% 0 0;
 	width: 100%;
 	font-size: 18px;
 }
 .parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	padding: 0;
 	width: 90%;
-	margin-top: 25px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 12px;
+	margin: 25px 0 0 12px;
 	float: none;
 	text-align: center;
 }
@@ -377,17 +335,11 @@ nav ul li {
 .logo {
 	width: 100%;
 	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 13px 0 0;
 	color: #043745;
 }
 .container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	width: 100%;
 	float: none;
 	overflow: auto;
@@ -395,14 +347,11 @@ nav ul li {
 	background: #52bad5;
 }
 header nav ul {
-	padding: 0px;
+	padding: 0;
 	float: none;
 }
 nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	width: 100%;
 	text-align: center;
 	padding-top: 8px;
@@ -411,40 +360,25 @@ nav ul li {
 .text_column {
 	width: 100%;
 	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	padding: 0;
 }
 .thumbnail {
 	width: 100%;
 }
 .footer_column {
 	width: 100%;
-	margin-top: 0px;
+	margin-top: 0;
 }
 .parallax {
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	margin: 0;
+	padding: 40% 0 0;
 	width: 100%;
 	font-size: 18px;
 }
 .parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	padding: 0;
+	margin: 30% 0 0;
 	float: none;
 	width: 100%;
 	text-align: center;
@@ -453,20 +387,11 @@ nav ul li {
 	width: 50%;
 }
 .parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
+	margin: 0;
+	padding: 20% 0 0;
 }
 .parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0;
 	width: 100%;
 	padding-top: 30px;
 }
@@ -489,17 +414,11 @@ nav ul li {
 }
 .text_column {
 	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	margin: 0;
+	padding: 0;
 }
 .banner {
-	margin-top: 0px;
-	padding-top: 0px;
+	margin-top: 0;
+	padding-top: 0;
 }
 }
