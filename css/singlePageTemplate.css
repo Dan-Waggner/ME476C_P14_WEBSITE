@@ -89,12 +89,23 @@ ul li:hover a {
 .sechead {
 	text-align: center;
 	color: #FFFFFF;
-	margin-top: 32px;
+	margin-top: 8px;
 	margin-bottom: 4px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 32px;
+	font-size: 24px;
+}
+
+.secsubhead {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 16px;
+	margin-bottom: 64px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
 }
 
 /* About Section */
@@ -108,16 +119,30 @@ ul li:hover a {
 	padding-right: 1.5%;
 	color: #FFFFFF;
 	font-size: 17px;
+	margin-top: 7px;
 }
 
 .head_column {
 
 	width: 33%;
 	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: #ffffff;
 	display: inline-block;
 	font-size: 30px;
 
+}
+
+.head_column2 {
+	width: 50%;
+	text-align: center;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 30px;
+	float: left;
+	margin-top: 3px;
+	margin-bottom: 10px;
 }
 
 .about {
@@ -194,12 +219,91 @@ footer {
 	text-align: center;
 	padding-top: 0;
 	float: left;
+	margin-bottom: 25px;
 }
+
+.footer_column a {
+	max-width: 25%;
+	max-height: 25%;
+	padding-top: 50px;
+}
+
+.footer_column img {
+
+}
+
+.twoColTxt {
+	text-align: justify;
+	margin-bottom: 5px;
+}
+
+.twoColSubHead {
+	text-align: left;
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
+	color: #ffffff;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	width: 100%;
+}
+
+.twoColSubHeadAlt {
+	text-align: left;
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
+	color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	width: 100%;
+}
+
+.twoColItemList {
+	color: #ffffff;
+	list-style: none;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.twoColItemSubList {
+	color: #ffffff;
+	margin-left: 30px;
+	list-style: none;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.footer_column p {
+	color: #ffffff;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
 footer .footer_column h3 {
 	color: #ffffff;
 	text-align: center;
 	font-size: xx-large;
 }
+
+.footer_column h4 {
+
+}
+
+.twoColImgCaption{
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 1;
+}
+
 footer .footer_column p {
 	color: #FFFFFF;
 }
@@ -209,6 +313,25 @@ footer .footer_column p {
 	max-width: 400px;
 	max-height: 200px;
 }
+
+.twoColumnImgs {
+	width: auto;
+	height: auto;
+	max-width: 800px;
+	max-height: 400px;
+	float: left;
+	align-content: center;
+	display: grid;
+}
+
+.aboutImgs2Cols {
+	padding-top: 5px;
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+}
+
 footer .footer_column p {
 	padding-left: 25%;
 	padding-right: 25%;
