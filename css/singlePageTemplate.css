@@ -264,7 +264,7 @@ footer {
 .twoColItemList {
 	color: #ffffff;
 	list-style: none;
-	text-align: left;
+	text-align: justify;
 	margin-top: 5px;
 	margin-bottom: 0;
 }
