@@ -11,6 +11,15 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+
+/* Image Gallery */
+.mySlides {
+	max-width: 656px;
+	max-height: 100%;
+	text-align: center;
+
+}
+
 /* Container */
 .container {
 	width: 90%;
@@ -324,12 +333,26 @@ footer .footer_column p {
 	display: grid;
 }
 
+
+
 .aboutImgs2Cols {
 	padding-top: 5px;
 	display: inline-block;
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 100%;
+}
+
+.buttonsize {
+	max-width: 328px;
+}
+
+.w3-display-right {
+	position: relative;
+	top: 50%;
+	right: 0%;
+	transform: translate(0%,-50%);
+	-ms-transform: translate(0%,-50%);
 }
 
 footer .footer_column p {
