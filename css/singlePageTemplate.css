@@ -15,7 +15,6 @@ body {
 /* Image Gallery */
 .mySlides {
 	max-width: 656px;
-	max-height: 100%;
 	text-align: center;
 
 }
@@ -231,6 +230,26 @@ footer {
 	margin-bottom: 25px;
 }
 
+.footer_column_gallery {
+	width: 50%;
+	text-align: center;
+	padding-top: 0;
+	float: left;
+	margin-bottom: 25px;
+	align-items: center;
+
+}
+
+.footer_column_gallery_button {
+	width: 100%;
+	text-align: center;
+	padding-top: 0;
+	float: left;
+	margin-bottom: 25px;
+	align-items: center;
+
+}
+
 .footer_column a {
 	max-width: 25%;
 	max-height: 25%;
@@ -345,7 +364,13 @@ footer .footer_column p {
 
 .buttonsize {
 	max-width: 328px;
+	float: left;
 }
+/*
+	max-width: 656px;
+	max-height: 100%;
+	max-width: 328px;
+ */
 
 .w3-display-right {
 	position: relative;
