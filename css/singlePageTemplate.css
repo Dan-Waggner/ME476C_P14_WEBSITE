@@ -22,12 +22,22 @@ body {
 .mySlides p {
 	color: #ffffff;
 	text-align: center;
+	margin-top: 2px;
+}
 
+.mySlides h2 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	margin: 0;
 }
 
 .mySlides img {
 	max-width: 492px;
 	text-align: center;
+	background-color: #000000;
+	padding: 8px 8px 8px 8px;
+	border-radius: 15px;
 
 }
 
