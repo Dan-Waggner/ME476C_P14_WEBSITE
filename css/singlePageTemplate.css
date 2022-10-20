@@ -14,7 +14,19 @@ body {
 
 /* Image Gallery */
 .mySlides {
-	max-width: 656px;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+.mySlides p {
+	color: #ffffff;
+	text-align: center;
+
+}
+
+.mySlides img {
+	max-width: 492px;
 	text-align: center;
 
 }
