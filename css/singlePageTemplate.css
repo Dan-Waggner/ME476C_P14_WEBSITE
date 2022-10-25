@@ -615,3 +615,54 @@ nav ul li {
 	padding-top: 0;
 }
 }
+
+.sectionImg{
+	margin-top: 35px;
+	width: 95%;
+	max-width: 941px;
+}
+
+.sectionImg2{
+	margin-top: 35px;
+	width: 75%;
+	max-width: 452px;
+
+}
+
+table.DesignCriteria {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+table.DesignCriteria td, table.DesignCriteria th {
+	padding: 3px 2px;
+}
+table.DesignCriteria tbody td {
+	font-size: 13px;
+	color: #ffffff;
+}
+
+table.DesignCriteria tbody td p {
+	color: #ffffff;
+	list-style: none;
+	text-align: justify;
+	margin: 5px 20% 0;
+}
+
+table.DesignCriteria tr:nth-child(even) {
+
+}
+table.DesignCriteria tfoot td {
+	font-size: 14px;
+}
+table.DesignCriteria tfoot .links {
+	text-align: right;
+}
+table.DesignCriteria tfoot .links a{
+	display: inline-block;
+	background: #1C6EA4;
+	color: #FFFFFF;
+	padding: 2px 8px;
+	border-radius: 5px;
+}
