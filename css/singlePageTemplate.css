@@ -138,6 +138,17 @@ ul li:hover a {
 	font-size: 20px;
 }
 
+.secsubheadalt {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
 /* About Section */
 .text_column {
 	width: 29%;
@@ -622,9 +633,21 @@ nav ul li {
 	max-width: 941px;
 }
 
-.sectionImg2{
+.sectionImgAlt{
 	margin-top: 35px;
+
+	max-width: 941px;
+}
+
+.sectionImg2{
+	margin-top: 5px;
 	width: 75%;
+	max-width: 452px;
+
+}
+
+.sectionImg2alt{
+	margin-top: 5px;
 	max-width: 452px;
 
 }
@@ -636,10 +659,10 @@ table.DesignCriteria {
 	margin-top: 15px;
 }
 table.DesignCriteria td, table.DesignCriteria th {
-	padding: 3px 2px;
+	padding: 2px 2px;
 }
 table.DesignCriteria tbody td {
-	font-size: 13px;
+	font-size: 17px;
 	color: #ffffff;
 }
 
@@ -647,7 +670,7 @@ table.DesignCriteria tbody td p {
 	color: #ffffff;
 	list-style: none;
 	text-align: justify;
-	margin: 5px 20% 0;
+	margin: 1px 10% 0;
 }
 
 table.DesignCriteria tr:nth-child(even) {
