@@ -41,9 +41,10 @@
 	margin: 15px 0;
 }
 .row .columns p {
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 8%;
+	padding-right: 8%;
 }
+
 .row .columns2 p {
 	padding-left: 10%;
 	padding-right: 10%;
@@ -375,6 +376,8 @@ body {
 	padding-left: 14px;
 	padding-right: 14px;
 }
+
+
 	
 .columns2 {
 	width: 100%;
