@@ -55,14 +55,23 @@ header {
 
 }
 .logo {
-	color: #fff;
 	font-weight: bold;
-	width: 10%;
-	float: left;
-	margin-top: 15px;
-	margin-left: 25px;
+	float: right;
 	letter-spacing: 4px;
 }
+
+
+
+.logo img {
+	width: 100%;
+	max-width: 120px;
+	display: flex;
+	align-content: center;
+	opacity: 100%;
+
+}
+
+
 nav {
 	float: right;
 	width: auto;
@@ -72,6 +81,7 @@ nav {
 header nav ul {
 	list-style: none;
 	float: right;
+	margin-top: 50px;
 }
 nav ul li {
 	float: left;
