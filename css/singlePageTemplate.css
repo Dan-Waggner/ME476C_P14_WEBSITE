@@ -60,6 +60,13 @@ header {
 	letter-spacing: 4px;
 }
 
+.hero .TeamLogoHead {
+	text-align: center;
+	width: 75%;
+	height: auto;
+	max-width: 360px;
+
+}
 
 
 .logo img {
@@ -81,7 +88,7 @@ nav {
 header nav ul {
 	list-style: none;
 	float: right;
-	margin-top: 50px;
+
 }
 nav ul li {
 	float: left;
@@ -111,6 +118,7 @@ ul li:hover a {
 .hero {
 	padding-top: 75px;
 	padding-bottom: 25px;
+	text-align: center;
 }
 .light {
 	font-weight: bold;
