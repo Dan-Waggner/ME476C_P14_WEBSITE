@@ -1,4 +1,13 @@
 @charset "UTF-8";
+
+body {
+	margin: 0;
+	background-image: url("images/stars.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -278,13 +287,6 @@ ul li a{
 	letter-spacing: 2px;
 	border-top-width: 2px;
 	font-family: "Source Sans Pro", serif;
-}
-body {
-	margin: 0;
-	background-image: url("images/Background.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 @media (max-width: 320px) {
