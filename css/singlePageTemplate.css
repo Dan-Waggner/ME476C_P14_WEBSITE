@@ -116,7 +116,6 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	padding-top: 75px;
 	padding-bottom: 25px;
 	text-align: center;
 }
@@ -132,6 +131,7 @@ ul li:hover a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 32px;
+	margin-bottom:2px;
 }
 
 .sechead {
@@ -183,13 +183,14 @@ ul li:hover a {
 
 .head_column {
 
-	width: 33%;
+	width: 33.3%;
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: #ffffff;
 	display: inline-block;
 	font-size: 30px;
+	float: left;
 
 }
 
