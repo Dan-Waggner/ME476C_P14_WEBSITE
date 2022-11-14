@@ -169,7 +169,7 @@ ul li:hover a {
 	padding-left: 2.5%;
 	padding-right: 1.5%;
 	color: #FFFFFF;
-	font-size: 17px;
+	font-size: 20px;
 	margin-top: 7px;
 }
 
@@ -353,6 +353,7 @@ footer {
 	color: #ffffff;
 	padding-left: 2.5%;
 	padding-right: 2.5%;
+	font-size: 20px;
 }
 
 footer .footer_column h3 {
@@ -362,7 +363,7 @@ footer .footer_column h3 {
 }
 
 .footer_column h4 {
-
+	font-size: 20px;
 }
 
 .twoColImgCaption{
@@ -672,7 +673,7 @@ table.DesignCriteria td, table.DesignCriteria th {
 	padding: 2px 2px;
 }
 table.DesignCriteria tbody td {
-	font-size: 17px;
+	font-size: 20px;
 	color: #ffffff;
 }
 
