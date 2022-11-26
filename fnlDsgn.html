@@ -38,53 +38,95 @@
     <p class="tagline">NASA Student Launch Competition</p>
     <p class="tagline">Final Design</p>
   </section>
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2 class="hidden">About</h2>
-    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+  <!--Prototype-->
+
+  <section class="about" id="protoTypeTitle">
+    <h2 class="sechead">Prototype</h2>
   </section>
-  <!-- Stats Gallery Section -->
-  <div class="gallery">
-    <div class="thumbnail">
-      <h1 class="stats">1500</h1>
-      <h4>TITLE</h4>
-      <p>One line description</p>
-    </div>
-    <div class="thumbnail">
-      <h1 class="stats">2300</h1>
-      <h4>TITLE</h4>
-      <p>One line description</p>
-    </div>
-    <div class="thumbnail">
-      <h1 class="stats">7500</h1>
-      <h4>TITLE</h4>
-      <p>One line description</p>
-    </div>
-    <div class="thumbnail">
-      <h1 class="stats">9870</h1>
-      <h4>TITLE</h4>
-      <p>One line description</p>
-    </div>
-  </div>
-  <!-- Parallax Section -->
-  <!--<section class="banner">
-    <h2 class="parallax">PARALLAX HERO</h2>
-    <p class="parallax_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p> 
-  </section>-->
-  <!-- More Info Section -->
+
+  <section class="aboutImgs2Cols" id="protoType">
+
+
+    <!--Prototype Info-->
+    <article class="footer_column">
+      <h4 class="twoColSubHead">Final Design Prototype</h4>
+      <p class="twoColItemList">
+        The prototype created by the team served to demonstrate the feasibility of a mechanical gimbal and the proposed
+        method of deployment. The assembly process was also subsequently reevaluated in order to completely remove the
+        usage of adhesives, as adhesive materials caused the ball bearings to be misaligned, resulting in the gimbal
+        having issues rotating with the dummy weight used.
+      </p>
+      <p class="twoColItemList">
+        Future iterations are likely to see the outer gimbal platform being composed of metal (likely aluminum), with
+        the ball bearings being press-fitted into the platform and into the gimbal base caps. This will remove any
+        possibility of misalignment caused by the use of adhesives. Additionally, the various wooden dowels shown will
+        be replaced with 0.25 in metal rods (also aluminum), which can be purchased from various online vendors for
+        very little. Preliminary research suggests that 2x 1 foot long 0.25 inch Aluminum Rods can be purchased for as
+        little as $3 USD before shipping. These rods will also likely be press-fitted into their respective slots.
+      </p>
+    </article>
+
+    <!--Prototype Info-->
+    <article class="footer_column">
+      <h2 class="secsubheadalt">Physical Payload Prototype</h2>
+      <img src="images/dsgnmthd/dsgn/payloadPrototype.jpg" alt="" class="sectionImg2alt"
+           width="30%" height="auto"/>
+      <p class="twoColItemList">
+        The above image depicts the final prototype for the Payload's mechanical gimbal. Note that this image does not
+        contain the method for deployment which utilizes a NEMA 17 Stepper Motor.
+      </p>
+      <p class="twoColItemList">
+        The below section depicts the final Payload Prototype's CAD documents. Note that these files are subject to
+        change as the final design is constructed, tested, and revised. Additionally, individual component CAD files
+        have been removed such that there is a focus on the actual Payload assembly.
+      </p>
+    </article>
+
+  </section>
+
+  <!--Prototype CAD-->
+  <section class="about" id="CADTitle">
+    <h2 class="sechead">CAD Files</h2>
+  </section>
+
+  <section class="aboutImgs2Cols" id="CAD">
+    <article class="footer_column">
+      <h4 class="twoColSubHead"></h4>
+      <!--Entire Assembly-->
+      <h2 class="secsubheadalt">Entire Payload Assembly</h2>
+      <img src="images/finalDesignImages/PayloadNetAssembly.png" alt="" class="sectionImg2alt"
+           width="95%" height="auto"/>
+      <p class="twoColItemList">
+        The above image shows the CAD drawing for the entire Payload Prototype Assembly. Depicted are the McMaster-CARR
+        NEMA 17 Stepper Motor, the Mechanical Gimbal, and the Payload Casing.
+      </p>
+      <!--Case Assembly-->
+      <h2 class="secsubheadalt">Payload Casing Subassembly</h2>
+      <img src="images/finalDesignImages/PayloadCaseAssembly.png" alt="" class="sectionImg2alt"
+           width="95%" height="auto"/>
+      <p class="twoColItemList">
+        The above image shows the Gimbal Casing Subassembly. This case ensures that the payload's components remain
+        perfectly aligned while the NEMA 17 stepper motor deploys the acting payload.
+      </p>
+    </article>
+
+    <!--Prototype Info-->
+    <article class="footer_column">
+      <!--Gimbal Case Assembly-->
+      <h2 class="secsubheadalt">Mechanical Gimbal Subassembly</h2>
+      <img src="images/finalDesignImages/PayloadGimbalAssembly.png" alt="" class="sectionImg2alt"
+           width="95%" height="auto"/>
+      <p class="twoColItemList">
+        This image depicts the mechanical gimbal system, which ensures that the camera systems are properly aligned
+        through passive alignment. 
+      </p>
+    </article>
+
+  </section>
+
   <footer>
-    <article class="footer_column">
-      <h3>ABOUT</h3>
-      <img src="images/templateimgs/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-    </article>
-    <article class="footer_column">
-      <h3>LOCATION</h3>
-      <img src="images/templateimgs/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-    </article>
+
   </footer>
   <!-- Footer Section -->
   <!--<section class="footer_banner" id="contact">
