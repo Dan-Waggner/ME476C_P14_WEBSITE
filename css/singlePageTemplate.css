@@ -509,11 +509,42 @@ footer {
 	max-width: 452px;
 }
 
-.FMEAIMG{
+.CenteredItems{
 	margin-top: 5px;
 	width: 95%;
 	float: left;
 	text-align: center;
+	font-size: 20px;
+}
+
+.CenteredItems p{
+	color: #ffffff;
+	list-style: none;
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.CenteredItems h4{
+	text-align: justify;
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
+	color: #ffffff;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	width: 100%;
+}
+
+.CenteredItems h5{
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 1;
+	font-size: 16px;
 }
 
 .sectionImg2altalt{
@@ -538,8 +569,17 @@ table.DesignCriteria tbody td {
 table.DesignCriteria tbody td p {
 	color: #ffffff;
 	list-style: none;
-	text-align: justify;
+	text-align: center;
 	margin: 1px 10% 0;
+}
+
+table.DesignCriteria tbody tr td h4{
+	text-align: center;
+	padding: 0;
+}
+
+table.DesignCriteria tbody tr td {
+	text-align: center;
 }
 
 table.DesignCriteria tr:nth-child(even) {
