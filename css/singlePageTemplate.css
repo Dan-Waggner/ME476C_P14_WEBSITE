@@ -347,6 +347,14 @@ footer {
 	margin-bottom: 0;
 }
 
+.twoColItemList2 {
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
 .twoColItemSubList {
 	color: #ffffff;
 	margin-left: 30px;
@@ -511,7 +519,7 @@ footer {
 
 .CenteredItems{
 	margin-top: 5px;
-	width: 95%;
+	width: 100%;
 	float: left;
 	text-align: center;
 	font-size: 20px;
