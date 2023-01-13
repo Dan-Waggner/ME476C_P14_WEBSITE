@@ -525,10 +525,26 @@ footer {
 	font-size: 20px;
 }
 
+.CenteredItems2{
+	margin-top: 5px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+}
+
 .CenteredItems p{
 	color: #ffffff;
 	list-style: none;
 	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.CenteredItems2 p{
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
