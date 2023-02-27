@@ -40,6 +40,17 @@ body {
 	padding: 10px 0;
 	margin: 15px 0;
 }
+
+.colColumn2 {
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-family: "Source Sans Pro", serif;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+}
+
 .columns2 {
 	width: 33.3%;
 	float: left;
@@ -103,6 +114,14 @@ body {
 	color: #fff6dc;
 	font-size: 18px;
 	margin-top:0;
+	margin-bottom: 0;
+}
+
+.container .columns h3 {
+	text-align: center;
+	color: #fff6dc;
+	font-size: 20px;
+	margin: 0 0 15px;
 }
 
 .container .columns2 h5 {
@@ -164,9 +183,21 @@ body {
 
 }
 a:visited {
-
 	color: #ffffff;
 	font-weight: normal;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
 }
 
 .secondary_header ul li:hover a{
@@ -458,6 +489,8 @@ ul li a{
 	float: left;
 	padding: 0;
 }
+
+
 .container .columns p {
 	padding-left: 25px;
 	padding-right: 25px;
