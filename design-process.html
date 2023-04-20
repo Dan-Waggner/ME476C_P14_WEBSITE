@@ -602,18 +602,21 @@
     <article class="footer_column">
       <h4 class="twoColSubHead">Prototyping Overview</h4>
       <p class="twoColItemList">
-        The team would eventually design 2 different prototypes. The first prototype was designed around late
+        The team would eventually design 3 different prototypes. The first prototype was designed around late
         November / early December 2022. This prototype focused heavily on the overall passive orientation systems
         that the team had in mind. The second prototype was generated as a midway step while constructing the final
         design. This prototype allowed the team to ensure that 1. all critical gimballing components were properly
-        aligned and 2. that the selected design passed very basic sanity checks. More information regarding
-        prototyping is outlined in the Final Design section of this website.
+        aligned and 2. that the selected design passed very basic sanity checks. The final prototype that the team
+        generated served to ensure that the design process foe the deployment bay was sound, and that the bay was
+        compatible with the required electronics needed to be employed by the Electrical Division. More information
+        regarding the team's prototyping methods are outlined in the Final Design section of this website.
       </p>
       <p class="twoColItemList">
         The image to the right shows the team's first designed prototype. This prototype allowed the team to view the
         feasibility of using a passive orientation system to align the electronics properly with respect to the
         Earth's gravitational vector. Due to errors within the design process on the side of the Electrical Division,
-        the final design would be modified extensively to allow for the inclusion of a 6-inch antenna.
+        the final design would be modified extensively to allow for the inclusion of a 6-inch antenna. The team took
+        great pride in this prototype, as it was the first prototype that they had come up with.
       </p>
 
     </article>
@@ -656,50 +659,157 @@
   </section>
 
   <!-- Testing -->
-    <!-- Field Testing -->-
   <section class="about" id="testingTitle">
     <h2 class="sechead">System Testing</h2>
   </section>
 
-  <section class="aboutImgs2Cols">
+  <section class="">
     <article class="footer_center">
       <h4 class="oneColSubHead">Overview</h4>
-      <p class="oneColItemList">
+      <p class="">
         The team's payload systems went under numerous various hardware, software, and electrical subsystem testing
         variations in order to ensure that all systems were operating both as intended and with reliable repetition.
-        These tests were broken up into 2 categories: structural testing and electrical testing.
+        These tests were broken up into 2 categories: structural testing and electrical testing. The Structural
+        testing focused on ensuring that the payload was able to support the entire weight of the rocket (more on
+        that below), while the Electrical testing focused on ensuring that all critical sensors were operating
+        correctly. The Electrical tests saw the design of 2 experimental apparatuses that each tested a specific sensor.
       </p>
+    </article>
+  </section>
+
+    <!-- Structural Testing -->
+  <section class="">
+    <article class="footer_center">
+      <h4 class="oneColSubHead">Structural Testing</h4>
     </article>
   </section>
 
   <section class="aboutImgs2Cols" id="tst">
-<!--    <article class="footer_column">-->
-<!--      <h2 class="secsubheadalt">NAU 2022/2023 NASA Student Launch Critical Design Review</h2>-->
-<!--      <a href="https://drive.google.com/file/d/1fv3Oep5oMY83mXK-u9lyvtrG8hYDo3IR/view?usp=sharing">-->
-<!--        <img src="images/dsgnmthd/miscimgs/CDR-Title-Page.png" alt="" class="sectionImg2alt"-->
-<!--             width="50%" height="auto"/>-->
-<!--      </a>-->
-<!--      <h4 class="twoColImgCaption">-->
-<!--        Click on the Document Cover above to view NAU's 2022/2023 Critical Design Report!-->
-<!--      </h4>-->
-<!--    </article>-->
+    <article class="footer_column">
+      <h4 class="twoColSubHead"></h4>
+      <p class="twoColItemList">
+        This method of testing focused on ensuring that the payload system was able to adequately support the entire
+        rocket while descending. The selected design used a NEMA 17 Stepper Motor, which was connected between the
+        nosecone and the avionics systems. As such, the threaded rod that the Stepper Motor used was the sole
+        connection between these two critical systems.
+      </p>
+      <p></p>
+
+      <img src="images/dsgnmthd/dsgn/finalDesignOutlineI.jpg" alt="" class="sectionImg2alt2"
+           width="90%" height="auto"/>
+
+      <p class="twoColItemList">
+        Depicted (Left to Right): Parachute Chord Hook, Deployment Bay with NEMA 17 Stepper Motor, Deployable Payload
+        System, Rocket Nose Cone. Note that the NEMA 17 Stepper Motor's Threaded Rod goes the entire length of the
+        system, from the deployment bay to the interior of the nosecone.
+      </p>
+    </article>
 
     <article class="footer_column">
-      <h4 class="twoColSubHead">Overview</h4>
+      <h4 class="twoColSubHead"> </h4>
       <p class="twoColItemList">
-        The team's payload systems went under numerous various hardware, software, and electrical subsystem testing
-        variations in order to ensure that all systems were operating both as intended and with reliable repetition.
-        These tests were broken up into 2 categories: structural testing and electrical testing.
+        Multiple test flights were conducted using a "skeleton" of the payload systems. This "skeleton" solely
+        consisted of the primary payload supports and the NEMA 17 Stepper Motor. All other critical systems
+        were not included, as the team was concerned that, if something went wrong and this support system failed
+        during descent, the Electrical Division's components would become irreparably damaged. The Mechanical
+        Division's components were, aside from the NEMA 17, relatively easy and cost-efficient to replace, while the
+        Electrical Division's components were extremely expensive.
       </p>
-      <h4 class="twoColSubHead">Overview - Structural Testing</h4>
       <p class="twoColItemList">
-        The team's payload systems went under numerous various hardware, software, and electrical subsystem testing
-        variations in order to ensure that all systems were operating both as intended and with reliable repetition.
-        These tests were broken up into 2 categories: structural testing and electrical testing.
+        The employed system worked phenomenally, and the NEMA 17 Stepper Motor was able to support the entire weight
+        of the rocket with no issues whatsoever. The NEMA 17 Stepper Motor would continue to perform well throughout
+        all other launches.
       </p>
     </article>
   </section>
 
+    <!-- Electrical Testing -->
+  <section class="">
+    <article class="footer_center">
+      <h4 class="oneColSubHead">Electrical Testing</h4>
+    </article>
+  </section>
+
+  <section class="aboutImgs2Cols">
+    <article class="footer_column">
+      <h4 class="twoColSubHead">Altimeter Testing</h4>
+      <p class="twoColItemList">
+        This test served to ensure that the payload’s altimeter was properly functioning. The altimeter was the first
+        of 2 redundancies employed by the payload and served to detect if the rocket and her payload had been
+        launched by comparing the payload’s current height to its initial height. Upon exceeding a height of 1,000 ft
+        and upon returning to a height within 75 feet of the initial height, the transducer reports to the primary
+        computer systems that the rocket has been launched and has landed.
+      </p>
+      <p></p>
+      <img src="images/dsgnmthd/testing/EEApparatus1.png" alt="" class="sectionImg2alt2"
+           width="50%" height="auto"/>
+      <p></p>
+      <p class="twoColItemList">
+        These tests were conducted using NAU's physics department's vacuum chamber, depicted above. The deployment bay
+        was placed inside the vacuum chamber, wherein the pressure was reduced for between 5 and 7 second, ensuring
+        that the pressure changed enough to simulate an altitude change of at least 5,000 ft. The altimeter functions
+        by measuring the local pressure around itself and computing that directly into altitude readouts. By using a
+        vacuum chamber, the team was able to reliably create a controlled system wherein the altimeter could be
+        evaluated under identical conditions as if it were in flight. The sensor's code was modified and revised to
+        ensure that the system was both correctly reading the relative altitudes and that, upon reaching this height
+        and upon returning to its initial height within 75 feet, the motor driver would be initialized.
+      </p>
+    </article>
+
+    <article class="footer_column">
+      <h4 class="twoColSubHead">Accelerometer Testing</h4>
+      <p class="twoColItemList">
+        This test served to ensure that the payload’s accelerometer was properly functioning. The accelerometer was
+        the second of two redundancies employed to ensure that the payload would not deploy prematurely. This is done
+        by measuring the magnitude of the device's experienced acceleration. The system has 2 steps. first, the device
+        ensures that a minimum of 5 G's has been measured. Once this condition is met, the device waits to see that
+        it is currently experiencing 1 ± 0.05 G's for a minimum of 5 seconds.
+      </p>
+      <p></p>
+      <img src="images/dsgnmthd/testing/EEApparatus2.png" alt="" class="sectionImg2alt2"
+           width="49%" height="auto"/>
+      <p></p>
+      <p class="twoColItemList">
+        The Mechanical Division generated a make-shift centrifuge (depicted above) to simulate high values
+        of local acceleration. Using the concepts of centripetal acceleration, the team ran the drill press at around
+        680 RPM with a distance between the accelerometer and the center of rotation measuring between 2 and 3
+        inches. Back-handed calculations informed the Mechanical Division that the sensors should be reading between
+        24- and 39- times Earth's acceleration. These calculations were compared with the accelerometer's readouts,
+        and the sensor was modified to ensure that it was correctly displaying its measured acceleration. Once this
+        was confirmed, the system was evaluated to ensure that, upon the aforementioned conditions being met, the
+        motor driver would be initialized.
+    </article>
+  </section>
+
+<!-- Final Design -->
+  <section class="about">
+    <h2 class="sechead">Final Design</h2>
+  </section>
+
+  <section class="">
+    <article class="footer_center">
+      <h4 class="oneColSubHead">Overview</h4>
+      <p class="">
+        After months and months of designing, testing, and iterating, the team had finalized their design just in
+        time for the Alabama NASA Student launch competition.
+      </p>
+      <p class="">
+        The team's design utilizes both passive and active orientation capabilities to ensure that the Electrical
+        Components of the challenge system are able to adequately receive and act upon various
+        transmissions delivered by NASA. The system uses a passive quadruple-bearing gimbal system to passively rotate
+        the electronics normal to Earth's gravitational vector. This system also has a protective cover that spins
+        down first to ensure that the electronics are not damaged by debris. The system then employs an active
+        motor to elevate a camera platform such that both the camera and the antenna are above the
+        local surface, ensuring reliable surveillance and transmission capabilities. The design also includes a
+        Rotating Thread-Rod Deployment System (RTRDS) to completely separate from the transport vehicle during
+        deployment. The RTDS uses a NEMA 17 Stepper Motor to push the payload out of the rocker body tube, preventing
+        the systems from being damaged as a result of the rocket's parachutes pulling the system to various areas.
+      </p>
+      <p class="">
+        The final design is depicted in greater detail under the Final Design page on this website.
+      </p>
+    </article>
+  </section>
 
     <!-- Sensor Testing -->
 

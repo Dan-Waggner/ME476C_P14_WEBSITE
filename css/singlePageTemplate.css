@@ -282,11 +282,14 @@ footer {
 }
 
 .footer_center {
-	width: 50%;
-	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: justify;
 	padding-top: 0;
 	float: left;
-	margin-bottom: 25px;
+	color: #ffffff;
+	font-size: 20px;
 }
 
 .footer_column_gallery {
@@ -376,6 +379,14 @@ footer {
 	margin-bottom: 0;
 }
 
+.twoColItemListAlt {
+	color: #ffffff;
+	list-style: none;
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
 .oneColItemList {
 	color: #ffffff;
 	list-style: none;
@@ -444,6 +455,8 @@ footer .footer_column p {
 
 footer .footer_center p {
 	color: #FFFFFF;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 .cards {
