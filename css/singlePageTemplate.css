@@ -603,6 +603,22 @@ footer {
 	font-size: 20px;
 }
 
+.CenteredItemsImg{
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	width: 50%;
+	margin: 5px 25% 10px;
+}
+
+.CenteredItemsImgAlt{
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	width: 70%;
+	margin: 5px 15% 25px;
+}
+
 .CenteredItems2{
 	margin-top: 5px;
 	width: 100%;
